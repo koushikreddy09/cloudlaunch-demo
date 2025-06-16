@@ -1,0 +1,8 @@
+version: "3"
+services:
+  cloudlaunch:
+    build: .
+    image: image-cloudlaunch:latest
+    container_name: container-cloudlaunch
+    ports:
+      - "4000:3000"
